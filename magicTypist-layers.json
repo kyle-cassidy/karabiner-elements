@@ -1637,6 +1637,7 @@
                 "modifiers": { "optional": ["shift", "command", "control", "option", "fn"] }
             },
             "to": [{ "key_code": "left_shift" }],
+            "to_if_alone": [{ "key_code": "delete_forward" }],
             "type": "basic"
         },
         {
@@ -2225,6 +2226,7 @@
                 "modifiers": { "optional": ["shift", "command", "control", "option", "fn"] }
             },
             "to": [{ "key_code": "right_shift" }],
+            "to_if_alone": [{ "key_code": "delete_or_backspace" }],
             "type": "basic"
         },
         {
