@@ -2242,6 +2242,7 @@
                 "modifiers": { "optional": ["shift", "command", "control", "option", "fn"] }
             },
             "to": [{ "key_code": "right_shift" }],
+            "to_if_alone": [{ "key_code": "delete_or_backspace" }],
             "type": "basic"
         },
         {
