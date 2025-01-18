@@ -718,7 +718,7 @@
                 "key_code": "a",
                 "modifiers": { "optional": ["shift", "command", "control", "option", "fn"] }
             },
-            "to": [{ "key_code": "a" }],
+            "to": [{ "key_code": "left_control" }],
             "type": "basic"
         },
         {
@@ -2389,7 +2389,7 @@
                 "key_code": "spacebar",
                 "modifiers": { "optional": ["shift", "command", "control", "option", "fn"] }
             },
-            "to": [{ "key_code": "spacebar" }],
+            "to": [{ "key_code": "left_shift" }],
             "type": "basic"
         },
         {
